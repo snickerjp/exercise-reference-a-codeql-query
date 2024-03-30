@@ -19,9 +19,6 @@ jobs:
       actions: read
       contents: read
 
-  analyze:
-    name: Analyze
-    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
