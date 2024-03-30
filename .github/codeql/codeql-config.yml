@@ -1,4 +1,4 @@
-- uses: github/codeql-action/init@v1
+- uses: github/codeql-action/init@v2
   with:
     packs:
     # Use these packs for JavaScript analysis
