@@ -1,4 +1,5 @@
 with:
+  languages: java-kotlin, javascript-typescript
   packs:
   # Use these packs for JavaScript analysis
   javascript:
