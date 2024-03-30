@@ -19,6 +19,14 @@ jobs:
       actions: read
       contents: read
 
+  analyze:
+    name: Analyze
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        language: ['javascript-typescript', 'java-kotlin']
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
